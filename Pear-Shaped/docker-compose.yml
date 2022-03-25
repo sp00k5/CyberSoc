@@ -7,7 +7,7 @@ services:
       FTP_USER: "EvilEddy"
       FTP_PASS: "HaXk0R3DD"
     ports:
-      - "10.126.195.219:21:21"
+      - "IP:21:21"
 
   plum-http:
     restart: unless-stopped
@@ -15,7 +15,7 @@ services:
     volumes:
       - ./plum-www:/usr/share/nginx/html:ro
     ports:
-      - "10.126.195.219:80:80"
+      - "IP:80:80"
 
   pear-http:
     restart: unless-stopped
@@ -26,7 +26,7 @@ services:
     links:
       - php
     ports:
-      - "10.126.195.219:8080:80"
+      - "IP:8080:80"
 
   php:
     image: php:7-fpm
@@ -39,4 +39,4 @@ services:
     volumes:
       - ./EDsUSB.E01:/usr/share/nginx/html/EDsUSB.E01:ro
     ports:
-      - "10.126.195.219:7777:80"
+      - "IP:7777:80"
