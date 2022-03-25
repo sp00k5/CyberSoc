@@ -1,0 +1,47 @@
+####### CHALLENGE FTP / SNIFFING ##########
+
+----- STORY -----
+
+Evil Ed works for Evil Inc (aka Plum / Apple ) but has recently put in his 2 week resignation letter which is weird as he was recently promoted. Along with this his network activity on the network has tripled within the past week. The IT department has been monitoring him and captured his data using Wireshark:
+Checkout his activity and report back what you find 
+
+»│ LOOKING FOR
+
+HTTP - Find him using employee credentials for Pear Inc website  / capture login page credentials (login to page)
+     - Downloading Apple secret plans for IPhone 14, download http object and find flag
+FTP  - Uploads secret plans to Pear Inc FTP server (person logs into ftp server using same credentials, which has flag.txt on it )
+
+----- SETUP -----
+
+»│ change IP in docker-compose.yml
+   │  pear & ftp - IP
+   │  plum       - IP
+   │  forensic   - IP
+»│ change IP in site.conf
+»│ docker-compose build
+»│ docker-compose up -d 
+»│ provide people 
+---- SOLUTION ----
+
+THREE SECTIONS
+
+»│ Section 1 (ftp):
+   │ 1. find FTP protocol traffic
+   │ 2. follow tcp.stream eq 623
+   │ 3. UserName = EvilEddy
+	Password = HaXk0R3DD
+   │ 4. Login to ftp (ftp 10.126.195.219:21) 
+   │ 5. ls --> get flag.txt --> cat flag.txt
+   │ 6. ROT13 de-cipher
+
+»│ Section 2 (image extraction):
+   │ 1. Wireshark -> Exract HTTP Objects
+   │ 2. Find PPhone14_BluePrints.jfif
+   │ 3. steghide extract -sf PPhone14_BluePrints.jfif (password is HaXk0R3DD)
+   │ 4. cat secret.txt
+
+»│ Section 3 (password recovery):   
+   │ 1. Wireshark --> follow tcp.stream eq 373
+   │ 2. Visit IP/login.php and login with Username=EvilEddy&Password=HaXk0R3DD
+   │ 3. Submit Flag
+

@@ -1,0 +1,24 @@
+####### CHALLENGE IMAGE FORENSICS ##########
+
+----- SETUP -----
+Two Images 
+sus.png <-- flag
+normalphoto.png <-- hideing flag
+»│ wc -c sus.png 
+ │ = 6439 sus.png    
+»│ wc -c normalphoto.png
+ │ = 302389 normalPhoto.png
+»│ cat normalPhoto.png sus.png > averageMeme.png
+»│ Provide averageMeme.png 
+
+---- SOLUTION ----
+1. GET skip by doing binwalk and taking final decimal 302389
+
+	DECIMAL       HEXADECIMAL     DESCRIPTION
+	--------------------------------------------------------------------------------
+	0             0x0             PNG image, 679 x 593, 8-bit/color RGBA, non-interlaced
+	41            0x29            Zlib compressed data, default compression
+	302389        0x49D35         PNG image, 556 x 152, 8-bit/color RGBA, non-interlaced
+
+2. dd skip=302389 count=6439 if=mix.png of=test.png bs=1 <-- Extract (don't need count since it is appended)
+3. open test.png

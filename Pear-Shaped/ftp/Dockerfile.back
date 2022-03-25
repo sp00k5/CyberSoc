@@ -1,0 +1,22 @@
+FROM debian:latest
+RUN apt-get update && apt-get install -y vsftpd db-util apache2-utils
+
+RUN useradd -d /srv/ftp virtual && \
+	chown virtual:virtual /srv/ftp
+
+RUN useradd -m EvilEddy && \
+	printf "s3cure\ns3cure\n" | passwd EvilEddy
+
+# COPY vusers.txt /etc/vsftpd/
+# RUN db_load -T -t hash -f /etc/vsftpd/vusers.txt /etc/vsftpd/vsftpd-virtual-user.db; rm -v /etc/vsftpd/vusers.txt && \ 
+# 	chmod 600 /etc/vsftpd/vsftpd-virtual-user.db
+COPY vsftpd.conf /etc/vsftpd/
+# COPY vsftpd.virtual /etc/pam.d/
+RUN mkdir -p /var/run/vsftpd/empty && chown -R ftp:ftp /var/run/vsftpd
+
+RUN chmod 777 /home/EvilEddy
+
+# RUN htpasswd -bdc /etc/vsftpd/.passwd EvilEddy s3cure
+
+CMD ["/usr/sbin/vsftpd","-obackground=NO"]
+

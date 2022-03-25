@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  telnet:
+    restart: unless-stopped
+    build: .
+    ports:
+      - "172.24.240.33:23:7777"

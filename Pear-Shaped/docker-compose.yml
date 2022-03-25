@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  ftp:
+    restart: unless-stopped
+    build: ./ftp
+    environment:
+      FTP_USER: "EvilEddy"
+      FTP_PASS: "HaXk0R3DD"
+    ports:
+      - "10.126.195.219:21:21"
+
+  plum-http:
+    restart: unless-stopped
+    image: nginx
+    volumes:
+      - ./plum-www:/usr/share/nginx/html:ro
+    ports:
+      - "10.126.195.219:80:80"
+
+  pear-http:
+    restart: unless-stopped
+    image: nginx
+    volumes:
+      - ./pear-www:/usr/share/nginx/html:ro
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+    links:
+      - php
+    ports:
+      - "10.126.195.219:8080:80"
+
+  php:
+    image: php:7-fpm
+    volumes:
+      - ./pear-www:/usr/share/nginx/html:ro
+
+  forensics:
+    restart: unless-stopped
+    image: nginx
+    volumes:
+      - ./EDsUSB.E01:/usr/share/nginx/html/EDsUSB.E01:ro
+    ports:
+      - "10.126.195.219:7777:80"

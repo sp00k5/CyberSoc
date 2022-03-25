@@ -1,0 +1,16 @@
+####### CHALLENGE USB FORENSICS ##########
+
+----- SETUP -----
+
+»│ Add WorldOfTanksacc.txt into USB
+»│ Delete WorldOfTanksacc.txt from USB 
+»│ Clone USB using tool (dd / FTKImager)
+»│ Make USB clone file available
+
+---- SOLUTION ----
+
+1. Open up sleuthkit (fls -o 0 EDsUSB.E01)
+ │	r/r * 64:       WorldOfTanksacc.txt
+2. icat -o 0 -r EDsUSB.E01 51 > recovered.txt
+3. cat recovered.txt
+4. base64 decode flag
