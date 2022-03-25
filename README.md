@@ -1,7 +1,7 @@
 # CyberSoc
 
-# WriteUps
+## WriteUps
 
-# Notes
+## Notes
 
-# Challenges 
+## Challenges 
