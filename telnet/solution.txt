@@ -2,7 +2,7 @@
 
 ----- SETUP -----
 
-»│ Change 172.24.240.33:23 to relevent IP:OUTSIDE_PORT (keep 7777)
+»│ Change IP in docker-compose to relevent IP:OUTSIDE_PORT (keep 7777)
 »│ docker-compose build
 »│ docker-compose up
 
