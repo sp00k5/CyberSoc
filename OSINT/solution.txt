@@ -1,0 +1,42 @@
+####### CHALLENGE OSINT ##########
+
+----- SETUP -----
+» Target: Pubert Haywood
+» PseudoName: Luxus Oderus Humongous
+» Accomplice: Aragorn
+
+»│ BackStory
+ │ Name: CR0W3 Inc (Black Hat Hacker Group)
+ │ Latest CTF from Metasploit has found countfeit flags being submitted to the server, the traffic was traced back to a user
+ │  - Name was [REDACTED]
+ │  - Confiscated Laptop
+ │		» Found a Sticker with Logo
+ │		» Found in Forensic recovery: CYB3R_CR0W3_G3N3RAT0R.exe (sha256 hash : 33d07246373a77e2c05346ebbe17f110)
+
+»│ PreRequite Links
+ │ https://github.com/CR0W3INC
+ │ https://github.com/Cr0w-Aragorn 
+ │ https://github.com/Luxus-Oderus-Humongous
+ │ https://www.youtube.com/@Cr0w3Inc
+
+»│ Provided to players
+ │ Dossier 
+ │ 33d07246373a77e2c05346ebbe17f110.exe
+
+---- SOLUTION ----
+» Intended Solution
+	1. Analyse Dossier to find
+		» Recognise Logo
+		» Recognise Accomplice Photo
+	2. Run Executable to find:
+		» Recognise Cr0w3 Name
+		» Recognise Github hint
+		» 
+
+» Unconventional Solutions
+	1. BruteForce
+	   » Iterate the exe for 10 million iterations
+	2. Reverse Engineer
+	   » Use cutter / ghidra / ida to trace operation
+	   » Find contents of sec variable which is key and length with keyLen
+	   » Acquire hexadecimal of encrypted flag and apply XOR with (flag,sec,26,keyLen) to decrypt
