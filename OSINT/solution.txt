@@ -11,7 +11,7 @@
  │  - Name was [REDACTED]
  │  - Confiscated Laptop
  │		» Found a Sticker with Logo
- │		» Found in Forensic recovery: CYB3R_CR0W3_G3N3RAT0R.exe (sha256 hash : 33d07246373a77e2c05346ebbe17f110)
+ │		» Found in Forensic recovery: CYB3R_CR0W3_G3N3RAT0R.exe (md5 hash : 33d07246373a77e2c05346ebbe17f110)
 
 »│ PreRequite Links
  │ https://github.com/CR0W3INC
@@ -23,17 +23,27 @@
  │ Dossier 
  │ 33d07246373a77e2c05346ebbe17f110.exe
 	- Linux Compile - `gcc 33d07246373a77e2c05346ebbe17f110.c -static -lm -o 33d07246373a77e2c05346ebbe17f110`
-	- Windows Compile - 
+	- Windows Compile - `x86_64-w64-mingw32-gcc.exe -static -lm 33d07246373a77e2c05346ebbe17f110.c -o 33d07246373a77e2c05346ebbe17f110.exe`
 
 ---- SOLUTION ----
-» Intended Solution
+» Intended Setup
 	1. Analyse Dossier to find
 		» Recognise Logo
 		» Recognise Accomplice Photo
+		» Recognise File hash matches executable
 	2. Run Executable to find:
 		» Recognise Cr0w3 Name
 		» Recognise Github hint
-		» 
+		» Recognise version number
+	3. Search CROW3 on Github and see matching Profile Pic
+	4. Find the matching CYB3R_CR0W3_G3N3RAT0R.c which has same version and md5 hash for name (but removed flag variable)
+		» CROW3INC Distributable Folders
+		» Other codes and files can be a distraction
+	5. Inside commit history of CYB3R_CR0W3_G3N3RAT0R.c find a removed print statement saying "Follow us at @Cr0w3Inc" 
+		» Another commit with flag variable saying "Nice Try"
+	6. Find Youtube Video that way, recognise hint its from General Aragorn 
+		» Aragorn full of code that is a dead end and false flags
+	7. Luxus account dumped with fake codes and flags
 
 » Unconventional Solutions
 	1. BruteForce
@@ -42,3 +52,13 @@
 	   » Use cutter / ghidra / ida to trace operation
 	   » Find contents of sec variable which is key and length with keyLen
 	   » Acquire hexadecimal of encrypted flag and apply XOR with (flag,sec,26,keyLen) to decrypt
+	   
+» Intended Answers
+1. What is the name of the hacker group   -> CR0W3 Inc
+2. What is the name of the original file  -> CYB3R_CR0W3_G3N3RAT0R
+3. Under what name was the suspect apprehended -> Aragorn
+4. What platform do they use for recruiting -> Youtube
+5. POSSIBLY MORE?
+6. Who is the leader of the gorup -> Luxus Oderus Humongous
+7. What is his real name -> Pubert Haywood
+8. What was the original flag submitted -> XXX
