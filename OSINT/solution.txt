@@ -22,6 +22,8 @@
 »│ Provided to players
  │ Dossier 
  │ 33d07246373a77e2c05346ebbe17f110.exe
+	- Linux Compile - `gcc 33d07246373a77e2c05346ebbe17f110.c -static -lm -o 33d07246373a77e2c05346ebbe17f110`
+	- Windows Compile - 
 
 ---- SOLUTION ----
 » Intended Solution
