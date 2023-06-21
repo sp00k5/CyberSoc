@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  lofi-http:
+    restart: unless-stopped
+    image: nginx
+    volumes:
+      - ./lofi-www:/usr/share/nginx/html:ro
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+    links:
+      - php
+    ports:
+      - "192.168.0.67:8080:80"
+
+  php:
+    image: php:7-fpm
+    volumes:
+      - ./lofi-www:/usr/share/nginx/html:ro

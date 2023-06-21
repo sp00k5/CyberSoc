@@ -1,8 +1,21 @@
 # CyberSoc
+Over the course of CyberSoc 
 
 ## WriteUps
+Writeup of events and challenges completed at participating CTFs in which I recall
+
+| Event | Challenge |
+|-------|-----------|
+| MetaCTF_CyberGames_2021 | Infilltrate |
+| picoCTF2018 | Weak RSA |
+| CyberSocCTF | PrivEsc,LOFI |
 
 ## Notes
+Topics I presented for CyberSoc and some notes associated with them
+- Linux Fundamentals
+- Steganography
+- Wireless Networks
+
 
 ## Challenges 
 Challenges made by me and a difficulty ranking based on the solve rate of beginner users we have had at sessions

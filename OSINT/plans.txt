@@ -1,0 +1,101 @@
+## OSINT
+
+Main Character: Pubert Haywood
+	- PseudoName: Luxus Oderus Humongous
+Accomplice: Aragorn (Name not Important)
+
+They Run a Black Hat Hacker Group
+	Name: CR0W3 Inc
+	Signit: Stickers on Laptop
+	
+
+Dossier:
+	- README.pdf file 
+	- C code with CYB3R_CR0W3_G3N3RAT0R.exe
+	- Logo Design for CR0W3 Inc.
+
+README.pdf
+	- BackStory: 
+		- Latest CTF from Metasploit has found countfeit flags being submitted to the server The traffic was traced back to a user
+		- Name was [REDACTED]
+		- Confiscated Laptop
+			> Found a Sticker with Logo
+			> Found in Forensic recovery: CYB3R_CR0W3_G3N3RAT0R.exe (sha256sum hash)
+
+CYB3R_CR0W3_G3N3RAT0R.exe
+	- Prints Metasploit style 
+
+
+                                                                                                      #&&&&&@@&&&&&&&                 
+                                                                                               &&&&@&@&&&&&@&&&&@&&&@&&&            
+                                                                                            &&&&&&&&@&&&&&&&&&&&&&&&&&&&&&&         
+                                                                                         &&&&&&&&&&&&&&&&&&&&&&&&&&@&&&&&&&&&&      
+ .d8888b.  8888888b.   .d8888b.  888       888 8888888888 .d8888b.                    .&@&&&&&.&&.%@&@&&&&&&&@&@&@&@&&@&@&&&&&&    
+d88P  Y88b 888   Y88b d88P  Y88b 888   o   888 888       d88P  Y88b                 &&&&&&&&,..&,..*.&.&&&&&&&&&&&&&&&&@&&&&&&&   
+888    888 888    888 888    888 888  d8b  888 888            .d88P               &&&&&&&&&&&............&&&@&&&&&&&&&&@&&&@&&&  
+888        888   d88P 888    888 888 d888b 888 8888888       8888"              &&&&&&&&&&&.................(@&&&@&@&&&&&@&@&&& 
+888        8888888P"  888    888 888d88888b888 888            "Y8b.            &&&&&&&&&@&&&&&................&&&&@&&&&&&&&&&& 
+888    888 888 T88b   888    888 88888P Y88888 888       888    888           &&&&&&&&&&&&&@&&...............&&(&@(&&&&@&&&@& 
+ "Y8888P"  888   T88b  "Y8888P"  888P     Y888 8888888888 "Y8888P"           &&&&&&&&&&@&&&&&...................../&&&&&&&@& 
+                                                                             &&&&&&&.................................,%@&&&& 
+                                                                            &&&&&&..................(@&@&@..@@&&&&&&@&&@@  
+                                                                            &&&&&&........%&&&&&&@@&&&&&&&&&&@&@&&&@&&&   
+                                                                            &@@&&&&&&&&&&@&&&&&&@&&&@.&...&,.<&@&&&@&    
+                                                                             &&&&&&&&&&@&&&&&&&&&@@@.&.@.&..\&.&&&      
+                                                                              &&&&&&&&&&&&&&&&@&&@@&&@&@&&&&&&&        
+                                                                                (&&&&&&&&&&&&&&&&&&@&&&&&&&           
+                                                                                     %&&&&&&&&&&&&&&&&   
+
+       =[ [REDACTED] v3.6.3-release [core:3.3 api:1.0]
++ -- --=[ 481 exploits  -  310 generations
++ -- --=[ 176 flags - 21 encoders - 8 nops
+       =[ svn r7957 updated 298 days ago (2023.12.23)
+
+WARNING: This copy of the [REDACTED] Framework was last updated 298 days ago. 
+	 We recommend that you update the framework at least every other day.
+	 For information on updating your copy of [Metasploit]. please see:
+		https://github.com/[REDACTED]
+
+%---------------------------------%
+> The Elite generator for flag cheating 
+> Give us an input and we will give you the flag
+
+c̲r̲3 > 
+
+
+                                                    @@@@@@@@@@@@@      \n
+                                               *@@@@@@@@@@@@@@@@@@@@   \n
+   __________  ____ _       _______         .@@@@.@.@@@@@@@@@@@@@@@@@  \n
+  / ____/ __ \/ __ \ |     / /__  /        @@@@@../....,@@@@@@@@@@@@@@ \n
+ / /   / /_/ / / / / | /| / / /_ <       @@@@@@@..........@@@@@@@@@@%  \n
+/ /___/ _, _/ /_/ /| |/ |/ /___/ /      @@@@@@@@@@.........@^@#@@@@@@  \n
+\____/_/ |_|\____/ |__/|__//____/      @@@@....................@@@@    \n
+                                      @@@@.......@@@@@@@@@@@@@@@@      \n
+                                      @@@@@@@@@@@@@@@...INC.@@@@       \n
+                                       @@@@@@@@@@@@@@@@@@@@@           \n
+                                         /@@@@@@@@@@@@@&               \n
+
+       =[ [REDACTED] v3.6.3-release [core:3.3 api:1.0]
++ -- --=[ 481 exploits  -  310 generations
++ -- --=[ 176 flags - 21 encoders - 8 nops
+       =[ svn r7957 updated 298 days ago (2023.12.23)
+
+WARNING: This copy of the [REDACTED] Framework was last updated 298 days ago. 
+	 We recommend that you update the framework at least every other day.
+	 For information on updating your copy of [Metasploit]. please see:
+		https://github.com/[REDACTED]
+
+%---------------------------------%
+> The Elite generator for flag cheating 
+> Give us an input and we will give you the flag
+
+c̲r̲3 > 
+
+
+# FLAG GEN
+char* flagP = "cybersoc{F0uNd_1n_D3p7H5}";
+char* cipherText = encryption(flagP, sec, 26, keyLen);
+pipe to file -> import to cyberchef -> To hex with delimeter \x
+	
+
+
