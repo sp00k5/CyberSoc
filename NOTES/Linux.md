@@ -11,3 +11,18 @@ Using CLI requires much less CPU and memory from the computer, allowing low-powe
 
 **Kali Linux** - A open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security"
 (Feature Rich with security analysis, security auditing, and penetration testing tools)
+
+## SLIDE (2)
+Some basic tools you can use:
+| Command | Use |
+|---------|-----|
+| cd | Change directory currently in terminal |
+| pwd | Print current directory user is in |
+| ls | List all contents in a directory |
+| env | Allows you to display your current environment |
+| echo | Used to display line of text/string that are passed as an argument |
+| strings | Command looks for printable strings in a file |
+| stat | Gives information about the file and filesystem (size of the file, access permissions, user ID, group ID, birth time, access time) |
+| file | Determine the type of a file |
+| find | Used to find files and directories and perform subsequent operations on them |
+| sudo | Allows users to run commands with privileges that only root user have |
