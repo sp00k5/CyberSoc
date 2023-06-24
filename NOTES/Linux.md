@@ -26,3 +26,11 @@ Some basic tools you can use:
 | file | Determine the type of a file |
 | find | Used to find files and directories and perform subsequent operations on them |
 | sudo | Allows users to run commands with privileges that only root user have |
+
+## Slide (3)
+
+**Directory** - file system cataloging structure which contains references to other computer files.
+The Linux operating system as a whole is broken down into these defines the directory structure and directory contents in Unix-like operating systems
+
+
+
