@@ -3,6 +3,7 @@ Official WriteUps = https://ctftime.org/event/681
 
 ## Super Safe RSA 2
 openssl rsa -pubin -in pubkey.pem -text -noout
+```
 RSA Public-Key: (1026 bit)
 Modulus:
     03:64:a5:37:f4:1c:bb:40:a1:ce:a1:d7:93:5a:f4:
@@ -24,6 +25,7 @@ Exponent:
     ad:4c:3e:01:6e:33:9b:26:3b:84:70:a2:07:d9:9e:
     53:7b:b1:a2:4e:57:8a:cf:29:dc:64:ff:f0:c0:08:
     0d:9f:64:c8:e7:ee:bf:51:89
+```
 
 CONVERT TO DECIMAL
 MODULUS: 
