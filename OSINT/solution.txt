@@ -43,7 +43,8 @@
 		» Another commit with flag variable saying "Nice Try"
 	6. Find Youtube Video that way, recognise hint its from General Aragorn 
 		» Aragorn full of code that is a dead end and false flags
-	7. Luxus account dumped with fake codes and flags
+	7. Comment on Aragorn video from Pubert Haywood which in About shows us he is Luxus 
+	8. Luxus account dumped with fake codes and flags 
 
 » Unconventional Solutions
 	1. BruteForce
