@@ -56,10 +56,10 @@
 	   
 » Intended Answers
 1. What is the name of the hacker group   -> CR0W3 Inc
-2. What is the name of the original file  -> CYB3R_CR0W3_G3N3RAT0R
-3. Under what name was the suspect apprehended -> Aragorn
-4. What platform do they use for recruiting -> Youtube
-5. POSSIBLY MORE?
+2. What is the version release of the program -> 3.63
+3. What is the name of the original file  -> CYB3R_CR0W3_G3N3RAT0R
+4. Under what name was the suspect apprehended -> Aragorn
+5. What platform do they use for recruiting -> Youtube
 6. Who is the leader of the gorup -> Luxus Oderus Humongous
 7. What is his real name -> Pubert Haywood
 8. What was the original flag submitted -> XXX
