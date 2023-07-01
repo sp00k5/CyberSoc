@@ -56,7 +56,7 @@
 	   
 » Intended Answers
 1. What is the name of the hacker group   -> CR0W3 Inc
-2. What is the version release of the program -> 3.63
+2. What is the version release of the program -> 3.6.3
 3. What is the name of the original file  -> CYB3R_CR0W3_G3N3RAT0R
 4. Under what name was the suspect apprehended -> Aragorn
 5. What platform do they use for recruiting -> Youtube
