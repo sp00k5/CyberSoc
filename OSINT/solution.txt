@@ -45,6 +45,7 @@
 		» Aragorn full of code that is a dead end and false flags
 	7. About section of Youtube channel has pubert's email which can be linked to Luxus by looking at Closed Issues in Git
 	8. Luxus account dumped with fake codes and flags 
+	9. Luxus Issue on prototype features confirmation of Pubert name and hex flag is there
 
 » Unconventional Solutions
 	1. BruteForce
