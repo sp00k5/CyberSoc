@@ -78,7 +78,7 @@ The Linux Kernel is the core interface between a computer’s hardware and its p
   - Command-line interface: A concise and efficient mode of interacting with the OS, without requiring the overhead of a graphic user interface (bash)
   - Graphical user interface: An interactive click and point based interactive approach to interacting with the system's programs
 
-**Desktop Environments** - 
+**Desktop Environments** - Bundle of components that provide common graphical interface such as icons, toolbars, wallpapers and desktop widgets, allowing users to interact with keyboard and mouse. 
 
 terminal / ssh /desktop environment / VM
 
