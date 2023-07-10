@@ -1,5 +1,5 @@
 # CyberSoc
-Over the course of CyberSoc 
+Over the course of CyberSoc content I have produced including `challenges`, `CTF solves` and `presentations`
 
 ## WriteUps
 Writeup of events and challenges completed at participating CTFs in which I recall
