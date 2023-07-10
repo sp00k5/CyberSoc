@@ -78,16 +78,29 @@ The Linux Kernel is the core interface between a computer’s hardware and its p
   - Command-line interface: A concise and efficient mode of interacting with the OS, without requiring the overhead of a graphic user interface (bash)
   - Graphical user interface: An interactive click and point based interactive approach to interacting with the system's programs
 
-**Desktop Environments** - Bundle of components that provide common graphical interface such as icons, toolbars, wallpapers and desktop widgets, allowing users to interact with keyboard and mouse. 
+**Desktop Environments** - Bundle of components that provide common graphical interface such as icons, toolbars, wallpapers and desktop widgets, allowing users to interact with keyboard and mouse.
+- XFCE
+- KDE
+- GNOME
 
-terminal / ssh /desktop environment / VM
+**Terminal** - A device which is capable of interpretting human input through interface and returning data output possibly through a device. 
+  - Terminal Emulators - Virtual applications that emulate a terminal to the computer
+  - Terminal Window -  A terminal emulator inside a graphical user interface and allow the user access to a text terminal and all its applications such as command-line interfaces (CLI) and text user interface (TUI) applications
+
+**Console** - Each computer only has one console attached to the host, can view error messages during boot
+`tty shells are virtual consoles and they use the same keyboard and monitor`
+
+**Shell** - Linux is a program that interprets the commands you enter in a terminal window, so the operating system can understand what you want to do
+  - Bash
+  - Zsh
+
+**Virtual Machines** - Allows you to share a system with many virtual environments. The hypervisor manages the hardware and separates the physical resources from the virtual environments. Resources are partitioned as needed from the physical environment to the VMs.
 
 ## SLIDE (5)
 `#Tools`
 
-Useful stuff to aid
-
-revshells 
+Useful stuff to aid are:
+- [explainshells](https://explainshell.com) - Breaksdown a entered command by what each part does 
 
 
 
