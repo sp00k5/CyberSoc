@@ -9,6 +9,7 @@ Writeup of events and challenges completed at participating CTFs in which I reca
 | MetaCTF_CyberGames_2021 | Infilltrate |
 | picoCTF2018 | Weak RSA |
 | CyberSocCTF | PrivEsc,LOFI |
+| TryHackMe | AngelArch,MarketPlace,MrRobot,SQLHell |
 
 ## Notes
 Topics I presented for CyberSoc and some notes associated with them
