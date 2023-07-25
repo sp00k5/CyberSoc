@@ -31,3 +31,7 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | OSINT              | OSINT                | Easy       |
 | Pear-Shaped        | Packet Analysis      | Medium     |
 | telnet             | PrivilegeEscalation  | Hard       |
+
+<p align="center" width="75%">
+    <img width="40%" src="cyber.png">
+</p>
