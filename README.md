@@ -1,4 +1,7 @@
-# CyberSoc
+<div align="center">
+  <h1> CyberSoc </h1>
+</div>
+
 Over the course of CyberSoc content I have produced including `challenges`, `CTF solves` and `presentations`
 
 ## WriteUps
