@@ -5,8 +5,7 @@
 Over the course of CyberSoc content I have produced including `challenges`, `CTF solves` and `presentations`
 
 ## WriteUps
-Writeup of events and challenges completed at participating CTFs in which I recall \
-[HackTricks (CTF Tips)](https://book.hacktricks.xyz/)
+Writeup of events and challenges completed at participating CTFs in which I recall 
 
 | Event | Challenge |
 |-------|-----------|
@@ -21,7 +20,6 @@ Topics I presented for CyberSoc and some notes associated with them
 - Steganography
 - Wireless Networks
 
-
 ## Challenges 
 Challenges made by me and a difficulty ranking based on the solve rate of beginner users we have had at sessions
 
@@ -32,6 +30,19 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | OSINT              | OSINT                | Easy       |
 | Pear-Shaped        | Packet Analysis      | Medium     |
 | telnet             | PrivilegeEscalation  | Hard       |
+
+## Useful Links
+
+| Link | Brief |
+|-------|-----------|
+| [GTFO Bins](https://gtfobins.github.io/) | Unix binaries that can be used to bypass local security, great for SUID |
+| [CTF Playbook](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/web) | tips, knowledge and tools great for CTFs |
+| [Revshells](https://www.revshells.com/) | Generate revershe shells |
+| [HackTricks](https://book.hacktricks.xyz/) | The typical flow that you should follow when pentesting |
+| [Payloads All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/) | List of useful payloads and bypasses |
+| [CTF Notes](https://d00mfist.gitbooks.io/ctf/content/) | Collection of notes picked up from doing numerous CTFs |
+| [PortSwigger Labs](https://portswigger.net/web-security/all-labs) | Collection of cyber security labs by PortSwigger |
+| [Explain Shell](https://explainshell.com/) | Explain bash commands |
 
 <p align="center" width="75%">
     <img width="40%" src="cyber.png">
