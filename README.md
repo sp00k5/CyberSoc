@@ -43,6 +43,7 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | [CTF Notes](https://d00mfist.gitbooks.io/ctf/content/) | Collection of notes picked up from doing numerous CTFs |
 | [PortSwigger Labs](https://portswigger.net/web-security/all-labs) | Collection of cyber security labs by PortSwigger |
 | [Explain Shell](https://explainshell.com/) | Explain bash commands |
+| [Cyber Chef](https://gchq.github.io/CyberChef/) | Use for decoding stuff | 
 
 <p align="center" width="75%">
     <img width="40%" src="cyber.png">
