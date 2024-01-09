@@ -44,6 +44,7 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | [PortSwigger Labs](https://portswigger.net/web-security/all-labs) | Collection of cyber security labs by PortSwigger |
 | [Explain Shell](https://explainshell.com/) | Explain bash commands |
 | [Cyber Chef](https://gchq.github.io/CyberChef/) | Use for decoding stuff | 
+| [Privacy Guides](https://www.privacyguides.org/en/) | Use for recommendations and learning about privacy |
 
 <p align="center" width="75%">
     <img width="40%" src="cyber.png">
