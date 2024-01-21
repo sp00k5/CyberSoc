@@ -45,6 +45,7 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | [Explain Shell](https://explainshell.com/) | Explain bash commands |
 | [Cyber Chef](https://gchq.github.io/CyberChef/) | Use for decoding stuff | 
 | [Privacy Guides](https://www.privacyguides.org/en/) | Use for recommendations and learning about privacy |
+| [CVE Reader](https://feedly.com/cve/) | Nice format to read CVEs |
 
 <p align="center" width="75%">
     <img width="40%" src="cyber.png">
