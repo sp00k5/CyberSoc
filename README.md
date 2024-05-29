@@ -47,6 +47,7 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | [Privacy Guides](https://www.privacyguides.org/en/) | Use for recommendations and learning about privacy |
 | [CVE Reader](https://feedly.com/cve/) | Nice format to read CVEs |
 | [WADComs](https://wadcoms.github.io/) | Windows cheat sheet for penetration testing |
+| [VPN Detection](https://www.ipqualityscore.com/vpn-ip-address-check/lookup) | Detect if a IP is from a vendored VPN provider |
 
 
 <p align="center" width="75%">
