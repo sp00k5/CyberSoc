@@ -48,6 +48,7 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | [CVE Reader](https://feedly.com/cve/) | Nice format to read CVEs |
 | [WADComs](https://wadcoms.github.io/) | Windows cheat sheet for penetration testing |
 | [VPN Detection](https://www.ipqualityscore.com/vpn-ip-address-check/lookup) | Detect if a IP is from a vendored VPN provider |
+| [CentralOps](https://centralops.net/co/) | Free online network tools |
 | [Censys](https://search.censys.io/) | Used for finding hosts and networks across the Internet with data about their configuration |[] 
 
 <p align="center" width="75%">
