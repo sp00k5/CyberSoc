@@ -178,3 +178,12 @@ java /usr/lib/jvm/java17/jdk-17.0.4.1+1-jre/bin/java 1131 - sudo update-alternat
 java - choose the version
 
 ```
+
+## Recover files from .vdi file
+1. `cp FILE.vdi ~`
+2. `cp VBoxDDU.dll  VBoxManage.exe  VBoxRT.dll ~` (need these from C:/Program Files/Oracle/VirtualBox/)
+3. `./vdi2raw.sh Fedors.vdi` (https://gist.github.com/GFlorent/41b36e56f061ca9ad6dc30a61d9cfae3)
+   - offset selection for btrfs to access user files
+5. `sudo mount /dev/loop0 /mnt/vdi`
+6. Once Done
+   -  `sudo umount /mnt/vdi && sudo losetup -d /dev/loop0`
