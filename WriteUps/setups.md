@@ -184,6 +184,7 @@ java - choose the version
 2. `cp VBoxDDU.dll  VBoxManage.exe  VBoxRT.dll ~` (need these from C:/Program Files/Oracle/VirtualBox/)
 3. `./vdi2raw.sh Fedors.vdi` (https://gist.github.com/GFlorent/41b36e56f061ca9ad6dc30a61d9cfae3)
    - offset selection for btrfs to access user files
+   - If already done (`sudo losetup -o 1075838976 /dev/loop0 diskimage.raw`)
 5. `sudo mount /dev/loop0 /mnt/vdi`
 6. Once Done
    -  `sudo umount /mnt/vdi && sudo losetup -d /dev/loop0`
