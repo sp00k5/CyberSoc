@@ -31,7 +31,14 @@ Challenges made by me and a difficulty ranking based on the solve rate of beginn
 | Pear-Shaped        | Packet Analysis      | Medium     |
 | telnet             | PrivilegeEscalation  | Hard       |
 
-## Useful Links
+## Other Challenges
+| Link | Brief |
+|-------|-----------|
+| [AWS IAM Vulns]([https://gtfobins.github.io/](https://github.com/BishopFox/iam-vulnerable)) | Terraform IAM deployments which are vulnerable |
+| [PortSwigger Labs](https://portswigger.net/web-security/all-labs) | Collection of cyber security labs by PortSwigger |
+| [VulnHub](https://vulnhub.com/) | Collection of vulnerable VMs to play with |[]
+
+## Useful Tools
 
 | Link | Brief |
 |-------|-----------|
