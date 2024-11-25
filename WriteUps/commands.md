@@ -59,3 +59,9 @@ git log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cres
 > Create a git workflow diagram in terminal showing stuff   
 
    
+```
+sudo iptables -t nat -A POSTROUTING -o envmw -j MASQUERADE
+sudo iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -A FORWARD -i virbr0 -o envmw -j ACCEPT
+```
+> Enable NAT (https://unix.stackexchange.com/questions/248504/bridged-interfaces-do-not-have-internet-access)
