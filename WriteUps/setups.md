@@ -188,3 +188,11 @@ java - choose the version
 5. `sudo mount /dev/loop0 /mnt/vdi`
 6. Once Done
    -  `sudo umount /mnt/vdi && sudo losetup -d /dev/loop0`
+
+## Changing colour of [TTY shells](https://askubuntu.com/questions/558280/changing-colour-of-text-and-background-of-terminal)
+1. Check all tty shells on system: `w`
+2. Send user a message: `echo "hi" > /dev/pts/X`
+3. Send all users a message: `wall -n "test"` (-n hides sender)
+4. Change text colour: `printf "\033[33m" > /dev/pts/X` (changes to green)
+5. Change terminal tty shell colour: `printf '\e[3;5;107m' > /dev/pts/X`
+   - `'\e[S;FG;BGm'`
