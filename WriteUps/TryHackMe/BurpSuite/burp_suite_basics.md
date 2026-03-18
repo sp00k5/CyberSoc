@@ -33,3 +33,33 @@ There are two types of settings:
 - **Project Settings**: These settings are specific to the current project and apply only during the session (Burp Suite Community Edition does not support saving projects)
 
 ## Burp Proxy
+Enables the capture of requests and responses between the user and the target web server. This intercepted traffic can be manipulated, sent to other tools for further processing, or explicitly allowed to continue to its destination.
+- **Intercepting Requests**: Allow for further actions such as forwarding, dropping, editing, or sending them to other Burp modules.
+- Provides control for web traffic
+- **Capture and Logging**: Captures and logs requests made through the proxy by default (even when the interception is turned off). Captured requests can be viewed in the HTTP history and WebSockets history sub-tabs
+- **WebSocket Support**: Captures and logs WebSocket communication
+
+### Features 
+- **Response Interception**: By default, the proxy does not intercept server responses unless explicitly requested on a per-request basis. The "Intercept responses based on the following rules" checkbox, along with the defined rules, allows for a more flexible response interception.
+- **Match and Replace**: The "Match and Replace" section in the Proxy settings enables the use of regular expressions (regex) to modify incoming and outgoing requests. This feature allows for dynamic changes, such as modifying the user agent or manipulating cookies.
+-  Burp Suite also includes a built-in Chromium browser that is pre-configured to use the proxy without any of the modifications we just had to do.
+
+
+## Target Tab
+Provides us with three views:
+
+### Site map
+Allows us to map out the web applications we are targeting in a tree structure. Every page that we visit while the proxy is active will be displayed on the site map. 
+- Automatically generate a site map by simply browsing the web application.  
+- Burp Suite Professional the site map can perform automated crawling of the target 
+- API endpoints are also captured
+
+### Issue definitions
+Access to a list of all the vulnerabilities that the scanner looks for. The Issue definitions section provides an extensive list of web vulnerabilities, complete with descriptions and references.
+
+### Scope settings
+Allows us to control the target scope in Burp Suite and it enables us to include or exclude specific domains/IPs to define the scope of our testing
+- However, even if we disabled logging for out-of-scope traffic, the proxy will still intercept everything. To prevent this, we need to go to the Proxy settings sub-tab and select **And URL Is** in target scope from the "Intercept Client Requests" section.
+
+
+> **Note**: When intercepting HTTP traffic encountering an issue when navigating to sites with TLS enabled will read indicating that the PortSwigger Certificate Authority (CA) is not authorised to secure the connection. To fix this navigate to http://burp/cert. This will download a file called cacert.der and upload it to the browser
